@@ -1,9 +1,9 @@
-package th.ac.kku.coe.diary
+package th.ac.kku.coe.myproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class edit : AppCompatActivity() {
+class activity_edit : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
