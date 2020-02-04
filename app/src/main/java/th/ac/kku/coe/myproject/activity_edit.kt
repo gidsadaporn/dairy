@@ -10,14 +10,14 @@ class activity_edit : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit)
+    }
 
-        fun nextList(view: View) {
+    fun nextList(view : View){
 
 
-            val intent = Intent(this, activity_list::class.java)
-            //intent.putExtra("keyIdentifier" , value1)
-            startActivity(intent);
-        }
+        val intent = Intent(this,activity_list::class.java)
+        //intent.putExtra("keyIdentifier" , value1)
+        startActivity(intent);
+    }
 
-}
 }

@@ -13,13 +13,14 @@ class MainPageCalender : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mainpagecalender)
-
-        fun nextAdd(view: View) {
-
-            val intent = Intent(this, activity_add::class.java)
-            //intent.putExtra("keyIdentifier" , value1)
-            startActivity(intent);
-        }
     }
-}
 
+    fun nextAdd(view : View){
+
+
+        val intent = Intent(this,activity_add::class.java)
+        //intent.putExtra("keyIdentifier" , value1)
+        startActivity(intent);
+    }
+
+}
