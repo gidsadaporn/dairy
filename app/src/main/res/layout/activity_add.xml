@@ -45,7 +45,7 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2 January 2020"
+            android:text="@string/day"
             android:textAlignment="center"
             android:layout_marginTop="24dp"
             android:textColor="#878787" />
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="68dp"
-            android:text="Title : "
+            android:text="@string/title"
             android:textColor="#878787"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -89,7 +89,7 @@
             android:layout_marginRight="16dp"
             android:layout_toRightOf="@id/textView7"
             android:background="#ffffff"
-            android:hint="Detail"
+            android:hint="@string/detial"
             android:inputType="textPersonName"
             android:lines="10"
             android:minLines="5"
@@ -99,10 +99,11 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="400dp"
             android:layout_marginLeft="120dp"
+            android:layout_marginTop="400dp"
             android:background="#6c8ba3"
-            android:text="SAVE" />
+            android:onClick="nextEdit"
+            android:text="@string/save" />
 
         <Button
             android:id="@+id/imageButton2"
@@ -111,5 +112,11 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/back" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FAD9D9"
-    tools:context=".mainpagecalender">
+    tools:context=".MainPageCalender">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -27,7 +27,7 @@
             android:layout_gravity="center_horizontal"
             android:background="#FFB4B4"
             android:padding="16dp"
-            android:text="January"
+            android:text="@string/January"
             android:textColor="#707070"
             android:textSize="25dp" />
 
@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:background="#FFB4B4"
             android:padding="110dp"
-            android:text="Calender"
+            android:text="@string/Calender"
             android:textColor="#707070"
             android:textSize="24dp" />
     </FrameLayout>
@@ -48,6 +48,7 @@
         android:layout_width="56dp"
         android:layout_height="55dp"
         android:background="@drawable/add"
+        android:onClick="nextAdd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

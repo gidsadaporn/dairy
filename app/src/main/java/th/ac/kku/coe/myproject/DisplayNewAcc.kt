@@ -18,7 +18,7 @@ class DisplayNewAcc : AppCompatActivity() {
     fun nextMessageMain(view : View){
 
 
-        val intent = Intent(this,Mainpagecalender::class.java)
+        val intent = Intent(this,MainPageCalender::class.java)
         //intent.putExtra("keyIdentifier" , value1)
         startActivity(intent);
     }

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ไดอารี่ของฉัน</string>
+    <string name="email">อีเมลล์</string>
+    <string name="forget">ลืมรหัสผ่าน?</string>
+    <string name="or">หรือ</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="facebook">เข้าสู่ระบบผ่าน Facebook</string>
+    <string name="google">เข้าสู่ระบบผ่าน Google</string>
+    <string name="create">ลงทะเบียน</string>
+
+    <string name="January">มกราคม</string>
+    <string name="Calender">ปฏิทิน</string>
+
+    <string name="Last_name">นามสกุล</string>
+    <string name="First_name">ชื่อ</string>
+
+    <string name="title">ชื่อเรื่อง : </string>
+    <string name="day">2 มกราคม 2563</string>
+    <string name="detial">รายละเอียด</string>
+    <string name="save">บันทึก</string>
+</resources>

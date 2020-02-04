@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">MyProject</string>
+    <string name="app_name">My Diary</string>
+    <string name="email">Email Address</string>
+    <string name="forget">Forget Password?</string>
+    <string name="or">OR</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="facebook">Sign in with Facebook</string>
+    <string name="google">Sign in with Google</string>
+    <string name="create">Create Account</string>
+
+    <string name="January">January</string>
+    <string name="Calender">Calender</string>
+
+    <string name="Last_name">Last name</string>
+    <string name="First_name">Frist name</string>
+
+    <string name="title">Title : </string>
+    <string name="day">2 January 2020</string>
+    <string name="detial">Detial</string>
+    <string name="save">SAVE</string>
+
+
+
 </resources>
