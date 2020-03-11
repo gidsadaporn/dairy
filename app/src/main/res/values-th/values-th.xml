@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">แอปพลิเคชันของฉัน</string>
-    <string name="edit_message">ป้อนข้อความ</string>
-    <string name="send">ส่ง</string>
-
-</resources>

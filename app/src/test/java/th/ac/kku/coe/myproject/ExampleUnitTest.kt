@@ -1,4 +1,4 @@
-package th.ac.kku.coe.myapplication
+package th.ac.kku.coe.myproject
 
 import org.junit.Test
 
